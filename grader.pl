@@ -19,12 +19,10 @@ if($myOutput=~$all){
 
     $passedCase=1;
 }else{
-if($passedCase ne 1){
 if($myOutput=~/$summary/){
     print("only summary matches\n");
 }else{
     print("you had a moment...\n");
-}
 }
 
 my @compOut = split('\n', $all); # creates an @answer array
@@ -146,7 +144,7 @@ my $execute = $_ eq "\n"; # if reached the split character
          foreach my $line (<getJava>){
             $myOutput=$myOutput . $line;
          }
-         $allOutput=chop($allOutput);
+         $allOutput=chomp($allOutput);
          print("\n==========YOURS:========\n");
          print($myOutput);
 
