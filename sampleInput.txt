@@ -77,3 +77,4 @@ Player 2 completed the following sets: Pirate Ship, Ice Skating Rink, Swimming P
 Player 2 did not complete the following sets: Waterpark
 Player 2 built a total of 7070 pieces
 The competition lasted 11 days
+

@@ -1,78 +1,358 @@
 
-TEST CASE NUMBER 0: you had a moment...
-CAUTION: unequal number of lines in outputs!
-YOURS: "player1 3500"
-COMPS: "Enter the number of pieces player 1 used for building on day 7"
-YOURS: "player2 3500"
-COMPS: "Enter the number of pieces player 2 used for building on day 7"
-YOURS: "The competition ended in a tie! There will be a tiebreaker round"
-COMPS: "Enter the number of pieces player 1 used for building on day 8"
-YOURS: "Enter the name of Lego Set 1"
-COMPS: "Enter the number of pieces player 2 used for building on day 8"
-YOURS: "Enter the number of pieces in Lego Set 1"
-COMPS: "Enter the number of pieces player 1 used for building on day 9"
-YOURS: "Enter the name of Lego Set 2"
-COMPS: "Enter the number of pieces player 2 used for building on day 9"
-YOURS: "Enter the number of pieces in Lego Set 2"
-COMPS: "Enter the number of pieces player 1 used for building on day 10"
-YOURS: "Enter the name of Lego Set 3"
-COMPS: "Enter the number of pieces player 2 used for building on day 10"
-YOURS: "Enter the number of pieces in Lego Set 3"
-COMPS: "Enter the number of pieces player 1 used for building on day 11"
-YOURS: "total pieces:4300"
-COMPS: "Enter the number of pieces player 2 used for building on day 11"
-YOURS: "player2 4400"
-COMPS: "Player 1 did not complete the following sets: None"
-YOURS: "player1 5200"
-COMPS: "Player 2 did not complete the following sets: Waterpark"
-YOURS: "Enter the number of pieces player 1 used for building on day 3"
-COMPS: "The competition lasted 11 days"
+TEST CASE NUMBER 0: 
+==========YOURS:========
+Welcome to the Lego Set Competition!
+Enter the name of Lego Set 1
+Enter the number of pieces in Lego Set 1
+Enter the name of Lego Set 2
+Enter the number of pieces in Lego Set 2
+Enter the name of Lego Set 3
+Enter the number of pieces in Lego Set 3
+total pieces:3500
+Enter the number of pieces player 1 used for building on day 1
+Enter the number of pieces player 2 used for building on day 1
+player1 900
+player2 650
+Enter the number of pieces player 1 used for building on day 2
+Enter the number of pieces player 2 used for building on day 2
+player1 1900
+player2 1650
+Enter the number of pieces player 1 used for building on day 3
+Enter the number of pieces player 2 used for building on day 3
+player1 2700
+player2 2700
+Enter the number of pieces player 1 used for building on day 4
+Enter the number of pieces player 2 used for building on day 4
+player1 3200
+player2 3250
+Enter the number of pieces player 1 used for building on day 5
+Enter the number of pieces player 2 used for building on day 5
+player1 3500
+player2 3500
+The competition ended in a tie! There will be a tiebreaker round
+Enter the name of Lego Set 1
+Enter the number of pieces in Lego Set 1
+Enter the name of Lego Set 2
+Enter the number of pieces in Lego Set 2
+Enter the name of Lego Set 3
+Enter the number of pieces in Lego Set 3
+total pieces:4300
+Enter the number of pieces player 1 used for building on day 1
+Enter the number of pieces player 2 used for building on day 1
+player1 4400
+player2 4400
+Enter the number of pieces player 1 used for building on day 2
+Enter the number of pieces player 2 used for building on day 2
+player1 5200
+player2 4960
+Enter the number of pieces player 1 used for building on day 3
+Enter the number of pieces player 2 used for building on day 3
+player1 6140
+player2 5160
+Enter the number of pieces player 1 used for building on day 4
+Enter the number of pieces player 2 used for building on day 4
+player1 7140
+player2 6660
+Enter the number of pieces player 1 used for building on day 5
+Enter the number of pieces player 2 used for building on day 5
+player1 7700
+player2 6870
+Enter the number of pieces player 1 used for building on day 6
+Enter the number of pieces player 2 used for building on day 6
+player1 7800
+player2 7070
+Congratulations to player 1 for winning the Lego Set Competition!
+Additional information about the competition results is below
+Player 1 completed the following sets: Pirate Ship, Ice Skating Rink, Swimming Pool, Soccer Field, Camper Van, Waterpark
+Player 1 did not complete the following sets: none
+Player 1 built a total of 7800 pieces
+Player 2 completed the following sets: Pirate Ship, Ice Skating Rink, Swimming Pool, Soccer Field, Camper Van, Waterpark
+Player 2 did not complete the following sets: none
+Player 2 built a total of 7070 pieces
+The competition lasted 6 days
+==========Theirs:========
 
-TEST CASE NUMBER 1: you had a moment...
+OUTPUT MATCHES 1:1
 CAUTION: unequal number of lines in outputs!
-YOURS: "Enter the number of pieces player 1 used for building on day 4"
-COMPS: "Player 1 did not complete the following sets: None"
-YOURS: "player1 3800"
-COMPS: "Player 2 completed the following sets: None"
 
-TEST CASE NUMBER 2: you had a moment...
-CAUTION: unequal number of lines in outputs!
-YOURS: "Enter the number of pieces player 1 used for building on day 4"
-COMPS: "Player 1 did not complete the following sets: None"
-YOURS: "player1 3800"
-COMPS: "Player 2 completed the following sets: None"
+TEST CASE NUMBER 1: 
+==========YOURS:========
+Welcome to the Lego Set Competition!
+Enter the name of Lego Set 1
+Enter the number of pieces in Lego Set 1
+Enter the name of Lego Set 2
+Enter the number of pieces in Lego Set 2
+Enter the name of Lego Set 3
+Enter the number of pieces in Lego Set 3
+total pieces:4500
+Enter the number of pieces player 1 used for building on day 1
+Enter the number of pieces player 2 used for building on day 1
+player1 900
+player2 200
+Enter the number of pieces player 1 used for building on day 2
+Enter the number of pieces player 2 used for building on day 2
+player1 1900
+player2 400
+Enter the number of pieces player 1 used for building on day 3
+Enter the number of pieces player 2 used for building on day 3
+player1 2872
+player2 450
+Enter the number of pieces player 1 used for building on day 4
+Enter the number of pieces player 2 used for building on day 4
+player1 3800
+player2 550
+Enter the number of pieces player 1 used for building on day 5
+Enter the number of pieces player 2 used for building on day 5
+player1 4500
+player2 700
+Congratulations to player 1 for winning the Lego Set Competition!
+Additional information about the competition results is below
+Player 1 completed the following sets: Ferris Wheel, Taj Mahal, Space Shuttle
+Player 1 did not complete the following sets: none
+Player 1 built a total of 4500 pieces
+Player 2 completed the following sets: none
+Player 2 did not complete the following sets: Ferris Wheel, Taj Mahal, Space Shuttle
+Player 2 built a total of 700 pieces
+The competition lasted 5 days
+==========Theirs:========
 
-TEST CASE NUMBER 3: you had a moment...
+OUTPUT MATCHES 1:1
 CAUTION: unequal number of lines in outputs!
-YOURS: "Enter the number of pieces player 2 used for building on day 6"
-COMPS: "Player 1 completed the following sets: Tower Bridge, Eiffel Tower"
-YOURS: "player1 3800"
-COMPS: "Player 1 did not complete the following sets: Ship in Bottle"
-YOURS: "Enter the number of pieces player 2 used for building on day 7"
-COMPS: "Player 2 did not complete the following sets: None"
-YOURS: "player2 4600"
-COMPS: "The competition lasted 10 days"
 
-TEST CASE NUMBER 4: you had a moment...
-CAUTION: unequal number of lines in outputs!
-YOURS: "Enter the number of pieces player 2 used for building on day 6"
-COMPS: "Player 1 completed the following sets: Tower Bridge, Eiffel Tower"
-YOURS: "player1 3800"
-COMPS: "Player 1 did not complete the following sets: Ship in Bottle"
-YOURS: "Enter the number of pieces player 2 used for building on day 7"
-COMPS: "Player 2 did not complete the following sets: None"
-YOURS: "player2 4600"
-COMPS: "The competition lasted 10 days"
+TEST CASE NUMBER 2: 
+==========YOURS:========
+Welcome to the Lego Set Competition!
+Enter the name of Lego Set 1
+Enter the number of pieces in Lego Set 1
+Enter the name of Lego Set 2
+Enter the number of pieces in Lego Set 2
+Enter the name of Lego Set 3
+Enter the number of pieces in Lego Set 3
+total pieces:4500
+Enter the number of pieces player 1 used for building on day 1
+Enter the number of pieces player 2 used for building on day 1
+player1 900
+player2 200
+Enter the number of pieces player 1 used for building on day 2
+Enter the number of pieces player 2 used for building on day 2
+player1 1900
+player2 400
+Enter the number of pieces player 1 used for building on day 3
+Enter the number of pieces player 2 used for building on day 3
+player1 2872
+player2 450
+Enter the number of pieces player 1 used for building on day 4
+Enter the number of pieces player 2 used for building on day 4
+player1 3800
+player2 550
+Enter the number of pieces player 1 used for building on day 5
+Enter the number of pieces player 2 used for building on day 5
+player1 4500
+player2 700
+Congratulations to player 1 for winning the Lego Set Competition!
+Additional information about the competition results is below
+Player 1 completed the following sets: Ferris Wheel, Taj Mahal, Space Shuttle
+Player 1 did not complete the following sets: none
+Player 1 built a total of 4500 pieces
+Player 2 completed the following sets: none
+Player 2 did not complete the following sets: Ferris Wheel, Taj Mahal, Space Shuttle
+Player 2 built a total of 700 pieces
+The competition lasted 5 days
+==========Theirs:========
 
-TEST CASE NUMBER 5: you had a moment...
+OUTPUT MATCHES 1:1
 CAUTION: unequal number of lines in outputs!
-YOURS: "Enter the number of pieces player 2 used for building on day 6"
-COMPS: "Player 1 completed the following sets: Tower Bridge, Eiffel Tower"
-YOURS: "player1 3800"
-COMPS: "Player 1 did not complete the following sets: Ship in Bottle"
-YOURS: "Enter the number of pieces player 2 used for building on day 7"
-COMPS: "Player 2 did not complete the following sets: None"
-YOURS: "player2 4600"
-COMPS: "The competition lasted 10 days"
+
+TEST CASE NUMBER 3: 
+==========YOURS:========
+Welcome to the Lego Set Competition!
+Enter the name of Lego Set 1
+Enter the number of pieces in Lego Set 1
+Enter the name of Lego Set 2
+Enter the number of pieces in Lego Set 2
+Enter the name of Lego Set 3
+Enter the number of pieces in Lego Set 3
+total pieces:7000
+Enter the number of pieces player 1 used for building on day 1
+Enter the number of pieces player 2 used for building on day 1
+player1 900
+player2 600
+Enter the number of pieces player 1 used for building on day 2
+Enter the number of pieces player 2 used for building on day 2
+player1 1400
+player2 1200
+Enter the number of pieces player 1 used for building on day 3
+Enter the number of pieces player 2 used for building on day 3
+player1 1900
+player2 1700
+Enter the number of pieces player 1 used for building on day 4
+Enter the number of pieces player 2 used for building on day 4
+player1 2300
+player2 2600
+Enter the number of pieces player 1 used for building on day 5
+Enter the number of pieces player 2 used for building on day 5
+player1 3000
+player2 3300
+Enter the number of pieces player 1 used for building on day 6
+Enter the number of pieces player 2 used for building on day 6
+player1 3800
+player2 4100
+Enter the number of pieces player 1 used for building on day 7
+Enter the number of pieces player 2 used for building on day 7
+player1 4400
+player2 4600
+Enter the number of pieces player 1 used for building on day 8
+Enter the number of pieces player 2 used for building on day 8
+player1 5100
+player2 5600
+Enter the number of pieces player 1 used for building on day 9
+Enter the number of pieces player 2 used for building on day 9
+player1 5450
+player2 6150
+Enter the number of pieces player 1 used for building on day 10
+Enter the number of pieces player 2 used for building on day 10
+player1 6000
+player2 7000
+Congratulations to player 2 for winning the Lego Set Competition!
+Additional information about the competition results is below
+Player 1 completed the following sets: Tower Bridge, Ship in Bottle
+Player 1 did not complete the following sets: Eiffel Tower
+Player 1 built a total of 6000 pieces
+Player 2 completed the following sets: Tower Bridge, Eiffel Tower, Ship in Bottle
+Player 2 did not complete the following sets: none
+Player 2 built a total of 7000 pieces
+
+==========Theirs:========
+
+OUTPUT MATCHES 1:1
+CAUTION: unequal number of lines in outputs!
+
+TEST CASE NUMBER 4: 
+==========YOURS:========
+Welcome to the Lego Set Competition!
+Enter the name of Lego Set 1
+Enter the number of pieces in Lego Set 1
+Enter the name of Lego Set 2
+Enter the number of pieces in Lego Set 2
+Enter the name of Lego Set 3
+Enter the number of pieces in Lego Set 3
+total pieces:7000
+Enter the number of pieces player 1 used for building on day 1
+Enter the number of pieces player 2 used for building on day 1
+player1 900
+player2 600
+Enter the number of pieces player 1 used for building on day 2
+Enter the number of pieces player 2 used for building on day 2
+player1 1400
+player2 1200
+Enter the number of pieces player 1 used for building on day 3
+Enter the number of pieces player 2 used for building on day 3
+player1 1900
+player2 1700
+Enter the number of pieces player 1 used for building on day 4
+Enter the number of pieces player 2 used for building on day 4
+player1 2300
+player2 2600
+Enter the number of pieces player 1 used for building on day 5
+Enter the number of pieces player 2 used for building on day 5
+player1 3000
+player2 3300
+Enter the number of pieces player 1 used for building on day 6
+Enter the number of pieces player 2 used for building on day 6
+player1 3800
+player2 4100
+Enter the number of pieces player 1 used for building on day 7
+Enter the number of pieces player 2 used for building on day 7
+player1 4400
+player2 4600
+Enter the number of pieces player 1 used for building on day 8
+Enter the number of pieces player 2 used for building on day 8
+player1 5100
+player2 5600
+Enter the number of pieces player 1 used for building on day 9
+Enter the number of pieces player 2 used for building on day 9
+player1 5450
+player2 6150
+Enter the number of pieces player 1 used for building on day 10
+Enter the number of pieces player 2 used for building on day 10
+player1 6000
+player2 7000
+Congratulations to player 2 for winning the Lego Set Competition!
+Additional information about the competition results is below
+Player 1 completed the following sets: Tower Bridge, Ship in Bottle
+Player 1 did not complete the following sets: Eiffel Tower
+Player 1 built a total of 6000 pieces
+Player 2 completed the following sets: Tower Bridge, Eiffel Tower, Ship in Bottle
+Player 2 did not complete the following sets: none
+Player 2 built a total of 7000 pieces
+
+==========Theirs:========
+
+OUTPUT MATCHES 1:1
+CAUTION: unequal number of lines in outputs!
+
+TEST CASE NUMBER 5: 
+==========YOURS:========
+Welcome to the Lego Set Competition!
+Enter the name of Lego Set 1
+Enter the number of pieces in Lego Set 1
+Enter the name of Lego Set 2
+Enter the number of pieces in Lego Set 2
+Enter the name of Lego Set 3
+Enter the number of pieces in Lego Set 3
+total pieces:7000
+Enter the number of pieces player 1 used for building on day 1
+Enter the number of pieces player 2 used for building on day 1
+player1 900
+player2 600
+Enter the number of pieces player 1 used for building on day 2
+Enter the number of pieces player 2 used for building on day 2
+player1 1400
+player2 1200
+Enter the number of pieces player 1 used for building on day 3
+Enter the number of pieces player 2 used for building on day 3
+player1 1900
+player2 1700
+Enter the number of pieces player 1 used for building on day 4
+Enter the number of pieces player 2 used for building on day 4
+player1 2300
+player2 2600
+Enter the number of pieces player 1 used for building on day 5
+Enter the number of pieces player 2 used for building on day 5
+player1 3000
+player2 3300
+Enter the number of pieces player 1 used for building on day 6
+Enter the number of pieces player 2 used for building on day 6
+player1 3800
+player2 4100
+Enter the number of pieces player 1 used for building on day 7
+Enter the number of pieces player 2 used for building on day 7
+player1 4400
+player2 4600
+Enter the number of pieces player 1 used for building on day 8
+Enter the number of pieces player 2 used for building on day 8
+player1 5100
+player2 5600
+Enter the number of pieces player 1 used for building on day 9
+Enter the number of pieces player 2 used for building on day 9
+player1 5450
+player2 6150
+Enter the number of pieces player 1 used for building on day 10
+Enter the number of pieces player 2 used for building on day 10
+player1 6000
+player2 7000
+Congratulations to player 2 for winning the Lego Set Competition!
+Additional information about the competition results is below
+Player 1 completed the following sets: Tower Bridge, Ship in Bottle
+Player 1 did not complete the following sets: Eiffel Tower
+Player 1 built a total of 6000 pieces
+Player 2 completed the following sets: Tower Bridge, Eiffel Tower, Ship in Bottle
+Player 2 did not complete the following sets: none
+Player 2 built a total of 7000 pieces
+
+==========Theirs:========
+
+OUTPUT MATCHES 1:1
+CAUTION: unequal number of lines in outputs!
 src/Testing/LegoSetCompetition.java
 src/Testing/LegoSetCompetition.java

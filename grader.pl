@@ -5,6 +5,7 @@ use 5.010;
 use IPC::Open2;
 my $debug = 0; # toggle to 1 to enable debug
 my $passedCases = 0;
+my $passedCase = 0;
 
 
 sub compareOutputs{
@@ -15,12 +16,15 @@ if($debug ==1 ){
 }
 if($myOutput=~$all){
     print("OUTPUT MATCHES 1:1\n");
-    $passedCases+=1;
+
+    $passedCase=1;
 }else{
+if($passedCase ne 1){
 if($myOutput=~/$summary/){
     print("only summary matches\n");
 }else{
     print("you had a moment...\n");
+}
 }
 
 my @compOut = split('\n', $all); # creates an @answer array
@@ -148,13 +152,23 @@ my $execute = $_ eq "\n"; # if reached the split character
 
          print("\n==========Theirs:========\n");
          print($allOutput);
-
-
-
          compareOutputs($myOutput,$output,$allOutput);
          $input = "";
          $output = "";
          $allOutput = "";
+
+          compareOutputs($myOutput,$output,$allOutput);
+          if($passedCase==1){
+                      select STDOUT;
+                      print("passed!\n");
+                      select $LOG;
+                      $passedCases+=1;
+                      $passedCase=0;
+                   }else{
+                      select STDOUT;
+                      print("failed!\n");
+                      select $LOG;
+                   }
 
 
  }
