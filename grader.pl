@@ -164,7 +164,7 @@ my $ful2 = "src/Testing/".$line;
 print($ful1."\n");
 unlink($ful2);
 select STDOUT;
-say("Tests passed:" . $passedCases);
+say("Tests passed: " . $passedCases);
 
 }
 }
