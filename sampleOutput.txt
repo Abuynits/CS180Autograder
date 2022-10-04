@@ -1,0 +1,72 @@
+TEST CASE NUMBER 0: you had a moment...
+CAUTION: unequal number of lines in outputs!
+YOURS: "player1 3500"
+COMPS: "Enter the number of pieces player 1 used for building on day 7"
+YOURS: "player2 3500"
+COMPS: "Enter the number of pieces player 2 used for building on day 7"
+YOURS: "The competition ended in a tie! There will be a tiebreaker round"
+COMPS: "Enter the number of pieces player 1 used for building on day 8"
+YOURS: "Enter the name of Lego Set 1"
+COMPS: "Enter the number of pieces player 2 used for building on day 8"
+YOURS: "Enter the number of pieces in Lego Set 1"
+COMPS: "Enter the number of pieces player 1 used for building on day 9"
+YOURS: "Enter the name of Lego Set 2"
+COMPS: "Enter the number of pieces player 2 used for building on day 9"
+YOURS: "Enter the number of pieces in Lego Set 2"
+COMPS: "Enter the number of pieces player 1 used for building on day 10"
+YOURS: "Enter the name of Lego Set 3"
+COMPS: "Enter the number of pieces player 2 used for building on day 10"
+YOURS: "Enter the number of pieces in Lego Set 3"
+COMPS: "Enter the number of pieces player 1 used for building on day 11"
+YOURS: "total pieces:4300"
+COMPS: "Enter the number of pieces player 2 used for building on day 11"
+YOURS: "player2 4400"
+COMPS: "Player 1 did not complete the following sets: None"
+YOURS: "player1 5200"
+COMPS: "Player 2 did not complete the following sets: Waterpark"
+YOURS: "Enter the number of pieces player 1 used for building on day 3"
+COMPS: "The competition lasted 11 days"
+TEST CASE NUMBER 1: you had a moment...
+CAUTION: unequal number of lines in outputs!
+YOURS: "Enter the number of pieces player 1 used for building on day 4"
+COMPS: "Player 1 did not complete the following sets: None"
+YOURS: "player1 3800"
+COMPS: "Player 2 completed the following sets: None"
+TEST CASE NUMBER 2: you had a moment...
+CAUTION: unequal number of lines in outputs!
+YOURS: "Enter the number of pieces player 1 used for building on day 4"
+COMPS: "Player 1 did not complete the following sets: None"
+YOURS: "player1 3800"
+COMPS: "Player 2 completed the following sets: None"
+TEST CASE NUMBER 3: you had a moment...
+CAUTION: unequal number of lines in outputs!
+YOURS: "Enter the number of pieces player 2 used for building on day 6"
+COMPS: "Player 1 completed the following sets: Tower Bridge, Eiffel Tower"
+YOURS: "player1 3800"
+COMPS: "Player 1 did not complete the following sets: Ship in Bottle"
+YOURS: "Enter the number of pieces player 2 used for building on day 7"
+COMPS: "Player 2 did not complete the following sets: None"
+YOURS: "player2 4600"
+COMPS: "The competition lasted 10 days"
+TEST CASE NUMBER 4: you had a moment...
+CAUTION: unequal number of lines in outputs!
+YOURS: "Enter the number of pieces player 2 used for building on day 6"
+COMPS: "Player 1 completed the following sets: Tower Bridge, Eiffel Tower"
+YOURS: "player1 3800"
+COMPS: "Player 1 did not complete the following sets: Ship in Bottle"
+YOURS: "Enter the number of pieces player 2 used for building on day 7"
+COMPS: "Player 2 did not complete the following sets: None"
+YOURS: "player2 4600"
+COMPS: "The competition lasted 10 days"
+TEST CASE NUMBER 5: you had a moment...
+CAUTION: unequal number of lines in outputs!
+YOURS: "Enter the number of pieces player 2 used for building on day 6"
+COMPS: "Player 1 completed the following sets: Tower Bridge, Eiffel Tower"
+YOURS: "player1 3800"
+COMPS: "Player 1 did not complete the following sets: Ship in Bottle"
+YOURS: "Enter the number of pieces player 2 used for building on day 7"
+COMPS: "Player 2 did not complete the following sets: None"
+YOURS: "player2 4600"
+COMPS: "The competition lasted 10 days"
+src/Testing/LegoSetCompetition.java
+src/Testing/LegoSetCompetition.java

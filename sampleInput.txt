@@ -1,0 +1,79 @@
+Welcome to the Lego Set Competition!
+Enter the name of Lego Set 1
+[Pirate Ship]
+Enter the number of pieces in Lego Set 1
+[2000]
+Enter the name of Lego Set 2
+[Ice Skating Rink]
+Enter the number of pieces in Lego Set 2
+[500]
+Enter the name of Lego Set 3
+[Swimming Pool]
+Enter the number of pieces in Lego Set 3
+[1000]
+Enter the number of pieces player 1 used for building on day 1
+[900]
+Enter the number of pieces player 2 used for building on day 1
+[650]
+Enter the number of pieces player 1 used for building on day 2
+[1000]
+Enter the number of pieces player 2 used for building on day 2
+[1000]
+Enter the number of pieces player 1 used for building on day 3
+[800]
+Enter the number of pieces player 2 used for building on day 3
+[1050]
+Enter the number of pieces player 1 used for building on day 4
+[500]
+Enter the number of pieces player 2 used for building on day 4
+[550]
+Enter the number of pieces player 1 used for building on day 5
+[300]
+Enter the number of pieces player 2 used for building on day 5
+[250]
+The competition ended in a tie! There will be a tiebreaker round
+Enter the name of Lego Set 1
+[Soccer Field]
+Enter the number of pieces in Lego Set 1
+[1800]
+Enter the name of Lego Set 2
+[Camper Van]
+Enter the number of pieces in Lego Set 2
+[1500]
+Enter the name of Lego Set 3
+[Waterpark]
+Enter the number of pieces in Lego Set 3
+[1000]
+Enter the number of pieces player 1 used for building on day 6
+[900]
+Enter the number of pieces player 2 used for building on day 6
+[900]
+Enter the number of pieces player 1 used for building on day 7
+[800]
+Enter the number of pieces player 2 used for building on day 7
+[560]
+Enter the number of pieces player 1 used for building on day 8
+[940]
+Enter the number of pieces player 2 used for building on day 8
+[200]
+Enter the number of pieces player 1 used for building on day 9
+[1000]
+Enter the number of pieces player 2 used for building on day 9
+[1500]
+Enter the number of pieces player 1 used for building on day 10
+[560]
+Enter the number of pieces player 2 used for building on day 10
+[210]
+Enter the number of pieces player 1 used for building on day 11
+[100]
+Enter the number of pieces player 2 used for building on day 11
+[200]
+Congratulations to player 1 for winning the Lego Set Competition!
+Additional information about the competition results is below
+Player 1 completed the following sets: Pirate Ship, Ice Skating Rink, Swimming Pool, Soccer Field, Camper Van, Waterpark
+Player 1 did not complete the following sets: None
+Player 1 built a total of 7800 pieces
+Player 2 completed the following sets: Pirate Ship, Ice Skating Rink, Swimming Pool, Soccer Field, Camper Van
+Player 2 did not complete the following sets: Waterpark
+Player 2 built a total of 7070 pieces
+The competition lasted 11 days
