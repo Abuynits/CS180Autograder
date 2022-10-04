@@ -11,7 +11,7 @@
 - run with `./grader.pl YOUR_UNIQUE_INPUT_FILES`
 ## File Layout
 - All of your code should be done in the src folder.
-- The first time the program is run, it will create a `classes` folder in your directory
+- The first time the program is run, it will create a `classes` folder in your directory and a `Testing` package
 ## Inputs to Program
 `./grader.pl input.txt output.txt mainJavaclass.java additional`
 
