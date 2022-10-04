@@ -13,8 +13,7 @@ if($debug ==1 ){
     my $total_args = scalar(@_);
     print($total_args);
 }
-my $cmp = $myOutput eq $all;
-if($cmp==1){
+if($myOutput=~$all){
     print("OUTPUT MATCHES 1:1\n");
     $passedCases+=1;
 }else{
@@ -143,6 +142,14 @@ my $execute = $_ eq "\n"; # if reached the split character
          foreach my $line (<getJava>){
             $myOutput=$myOutput . $line;
          }
+         $allOutput=chop($allOutput);
+         print("\n==========YOURS:========\n");
+         print($myOutput);
+
+         print("\n==========Theirs:========\n");
+         print($allOutput);
+
+
 
          compareOutputs($myOutput,$output,$allOutput);
          $input = "";
