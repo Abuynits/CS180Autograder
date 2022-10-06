@@ -49,6 +49,7 @@ for (my $i = 0; $i < $lenSecond; $i += 1) {
 }
 
 }
+say("done");
 }
 
 sub main {
@@ -115,7 +116,7 @@ $output = $output . $_;
 $allOutput = $allOutput . $_;
 }
 my $execute = $_ eq "\n"; # if reached the split character
- if ($execute == 1){ # found the end of the input/output example
+ if ($execute == 1 and length($input) ne 0){ # found the end of the input/output example
         if($debug ==1 ){
              print"=========input=========\n";
              print($input);
@@ -144,18 +145,17 @@ my $execute = $_ eq "\n"; # if reached the split character
          foreach my $line (<getJava>){
             $myOutput=$myOutput . $line;
          }
-         $allOutput=chomp($allOutput);
+         print("\n==========INPUT:========\n");
+         print($input);
          print("\n==========YOURS:========\n");
          print($myOutput);
 
-         print("\n==========Theirs:========\n");
+         print("\n\n==========Theirs:========\n");
          print($allOutput);
-         compareOutputs($myOutput,$output,$allOutput);
+         compareOutputs($myOutput,$output,chop($allOutput));
          $input = "";
          $output = "";
          $allOutput = "";
-
-          compareOutputs($myOutput,$output,$allOutput);
           if($passedCase==1){
                       select STDOUT;
                       print("passed!\n");
@@ -167,8 +167,6 @@ my $execute = $_ eq "\n"; # if reached the split character
                       print("failed!\n");
                       select $LOG;
                    }
-
-
  }
 
 
