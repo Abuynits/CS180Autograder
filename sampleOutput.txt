@@ -1,5 +1,138 @@
+sampleInput.txt
+sampleOutput.txt
+LegoSetCompetition.java
+CompetitionLog.java
+=========input=========
+Pirate Ship
+2000
+Ice Skating Rink
+500
+Swimming Pool
+1000
+900
+650
+1000
+1000
+800
+1050
+500
+550
+300
+250
+Soccer Field
+1800
+Camper Van
+1500
+Waterpark
+1000
+900
+900
+800
+560
+940
+200
+1000
+1500
+560
+210
+100
+200
+=========output=========
+Congratulations to player 1 for winning the Lego Set Competition!
+Additional information about the competition results is below
+Player 1 completed the following sets: Pirate Ship, Ice Skating Rink, Swimming Pool, Soccer Field, Camper Van, Waterpark
+Player 1 did not complete the following sets: None
+Player 1 built a total of 7800 pieces
+Player 2 completed the following sets: Pirate Ship, Ice Skating Rink, Swimming Pool, Soccer Field, Camper Van
+Player 2 did not complete the following sets: Waterpark
+Player 2 built a total of 7070 pieces
+The competition lasted 11 days
+
+=========allOutput=========
+Welcome to the Lego Set Competition!
+Enter the name of Lego Set 1
+Enter the number of pieces in Lego Set 1
+Enter the name of Lego Set 2
+Enter the number of pieces in Lego Set 2
+Enter the name of Lego Set 3
+Enter the number of pieces in Lego Set 3
+Enter the number of pieces player 1 used for building on day 1
+Enter the number of pieces player 2 used for building on day 1
+Enter the number of pieces player 1 used for building on day 2
+Enter the number of pieces player 2 used for building on day 2
+Enter the number of pieces player 1 used for building on day 3
+Enter the number of pieces player 2 used for building on day 3
+Enter the number of pieces player 1 used for building on day 4
+Enter the number of pieces player 2 used for building on day 4
+Enter the number of pieces player 1 used for building on day 5
+Enter the number of pieces player 2 used for building on day 5
+The competition ended in a tie! There will be a tiebreaker round
+Enter the name of Lego Set 1
+Enter the number of pieces in Lego Set 1
+Enter the name of Lego Set 2
+Enter the number of pieces in Lego Set 2
+Enter the name of Lego Set 3
+Enter the number of pieces in Lego Set 3
+Enter the number of pieces player 1 used for building on day 6
+Enter the number of pieces player 2 used for building on day 6
+Enter the number of pieces player 1 used for building on day 7
+Enter the number of pieces player 2 used for building on day 7
+Enter the number of pieces player 1 used for building on day 8
+Enter the number of pieces player 2 used for building on day 8
+Enter the number of pieces player 1 used for building on day 9
+Enter the number of pieces player 2 used for building on day 9
+Enter the number of pieces player 1 used for building on day 10
+Enter the number of pieces player 2 used for building on day 10
+Enter the number of pieces player 1 used for building on day 11
+Enter the number of pieces player 2 used for building on day 11
+Congratulations to player 1 for winning the Lego Set Competition!
+Additional information about the competition results is below
+Player 1 completed the following sets: Pirate Ship, Ice Skating Rink, Swimming Pool, Soccer Field, Camper Van, Waterpark
+Player 1 did not complete the following sets: None
+Player 1 built a total of 7800 pieces
+Player 2 completed the following sets: Pirate Ship, Ice Skating Rink, Swimming Pool, Soccer Field, Camper Van
+Player 2 did not complete the following sets: Waterpark
+Player 2 built a total of 7070 pieces
+The competition lasted 11 days
+
 
 TEST CASE NUMBER 0: 
+==========INPUT:========
+Pirate Ship
+2000
+Ice Skating Rink
+500
+Swimming Pool
+1000
+900
+650
+1000
+1000
+800
+1050
+500
+550
+300
+250
+Soccer Field
+1800
+Camper Van
+1500
+Waterpark
+1000
+900
+900
+800
+560
+940
+200
+1000
+1500
+560
+210
+100
+200
+
 ==========YOURS:========
 Welcome to the Lego Set Competition!
 Enter the name of Lego Set 1
@@ -48,6 +181,7 @@ Player 2 completed the following sets: Pirate Ship, Ice Skating Rink, Swimming P
 Player 2 did not complete the following sets: none
 Player 2 built a total of 7070 pieces
 The competition lasted 6 days
+
 ==========Theirs:========
 Welcome to the Lego Set Competition!
 Enter the name of Lego Set 1
@@ -95,35 +229,7 @@ Player 2 did not complete the following sets: Waterpark
 Player 2 built a total of 7070 pieces
 The competition lasted 11 days
 
-you had a moment...
-CAUTION: unequal number of lines in outputs!
-YOURS: "Enter the number of pieces player 1 used for building on day 1"
-COMPS: "Enter the number of pieces player 1 used for building on day 7"
-YOURS: "Enter the number of pieces player 2 used for building on day 1"
-COMPS: "Enter the number of pieces player 2 used for building on day 7"
-YOURS: "Enter the number of pieces player 1 used for building on day 2"
-COMPS: "Enter the number of pieces player 1 used for building on day 8"
-YOURS: "Enter the number of pieces player 2 used for building on day 2"
-COMPS: "Enter the number of pieces player 2 used for building on day 8"
-YOURS: "Enter the number of pieces player 1 used for building on day 3"
-COMPS: "Enter the number of pieces player 1 used for building on day 9"
-YOURS: "Enter the number of pieces player 2 used for building on day 3"
-COMPS: "Enter the number of pieces player 2 used for building on day 9"
-YOURS: "Enter the number of pieces player 1 used for building on day 4"
-COMPS: "Enter the number of pieces player 1 used for building on day 10"
-YOURS: "Enter the number of pieces player 2 used for building on day 4"
-COMPS: "Enter the number of pieces player 2 used for building on day 10"
-YOURS: "Enter the number of pieces player 1 used for building on day 5"
-COMPS: "Enter the number of pieces player 1 used for building on day 11"
-YOURS: "Enter the number of pieces player 2 used for building on day 5"
-COMPS: "Enter the number of pieces player 2 used for building on day 11"
-YOURS: "Additional information about the competition results is below"
-COMPS: "Player 1 did not complete the following sets: None"
-YOURS: "Player 1 built a total of 7800 pieces"
-COMPS: "Player 2 did not complete the following sets: Waterpark"
-YOURS: "Player 2 did not complete the following sets: none"
-COMPS: "The competition lasted 11 days"
-you had a moment...
-CAUTION: unequal number of lines in outputs!
+3OUTPUT MATCHES 1:1
+done
 src/Testing/LegoSetCompetition.java
 src/Testing/LegoSetCompetition.java
