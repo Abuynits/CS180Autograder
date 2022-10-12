@@ -8,6 +8,14 @@ my $debug = 0; # toggle to 1 to enable debug
 my $passedCases = 0;
 my $passedCase = 0;
 
+# Handle ctrl+C
+$SIG{INT} = \&clearFiles;
+sub clearFiles {
+    $SIG{INT} = \&clearFiles;
+    say "Interrupting Run & removing files...\n";
+    system("rm -rf src/Testing/*");
+    system("rm -rf classes/*");
+}
 
 sub compareOutputs {
     $passedCase = 0;
@@ -23,6 +31,7 @@ sub compareOutputs {
     my $lenFirst = scalar(@usrOut);
     my $status = 0;
     if ($lenFirst ne $lenSecond) {
+        select STDOUT;
         print("CAUTION: unequal number of lines in outputs!\n");
     }
     # my $loopMax = $lenFirst>=$lenSecond ? $lenFirst : $lenSecond;
@@ -85,6 +94,7 @@ sub main {
     my $allOutput = "";
     if (-d "src/Testing") {
         system("rm -rf src/Testing/*");
+        system("rm -rf src/classes/*");
     }
     else {
         system("mkdir src/Testing");
@@ -168,14 +178,14 @@ sub main {
 
     }
     my $ful1 = "src/Testing/" . $mainFile;
-    print($ful1 . "\n");
     unlink($ful1);
-
+    system("rm -rf classes/*");
     foreach my $line (@supportingJava) {
         my $ful2 = "src/Testing/" . $line;
         unlink($ful2);
-        select STDOUT;
     }
+
+    select STDOUT;
     say("Tests passed: " . $passedCases);
 }
 main();
