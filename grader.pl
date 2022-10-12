@@ -80,13 +80,9 @@ sub main {
         or die "Could not open file '$inputFile' $!";
 
     my $count = 0;
-    my $lastRow = 0;
     my $input = "";
     my $output = "";
     my $allOutput = "";
-    my $nextExecute;
-    my $endFindOutput;
-
     if (-d "src/Testing") {
         system("rm -rf src/Testing/*");
     }
@@ -177,11 +173,9 @@ sub main {
 
     foreach my $line (@supportingJava) {
         my $ful2 = "src/Testing/" . $line;
-        print($ful1 . "\n");
         unlink($ful2);
         select STDOUT;
-        say("Tests passed: " . $passedCases);
-
     }
+    say("Tests passed: " . $passedCases);
 }
 main();
